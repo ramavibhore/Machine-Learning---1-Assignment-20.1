@@ -1,0 +1,40 @@
+1. What are the three stages to build the hypotheses or model in machine learning?
+
+Three stages to build hypotheses or model in machine learning are:
+[A] Building a model
+[B] Test that model
+[C] Apply the model
+
+
+2. What is the standard approach to supervised learning?
+
+If training is leveled such as an input where the desired output is known, in that case supervised learning is approachable.
+For example, any historical data which is leveled , supervised learning can predict some future events using that datasets.
+
+3. What is Training set and Test set?
+
+Training dataset is a dataset which is used to train a model. Any specific feature can be picked up from training set
+and using that feature , model should be able to learn something if training set is leveled correctly.
+
+Test dataset is used to measure how well the model is performing to make predictions. If the prediction score for the Test
+set are unreasonable, then we can adjust the model and try again.
+
+4. What is the general principle of an ensemble method and what is bagging and
+boosting in ensemble method?
+
+Ensemble method is a machine learning technique that combines several base models in order to produce one optimal 
+predictive model.
+
+Bagging is combination of Bootstrapping and Aggregation to form one ensemble model. Given a sample of data, multiple 
+Bootstrapped subsamples are pulled. A decision tree is formed on each of the Bootstrapped subsamples. After each 
+subsample Decision Tree has been formed , as algorithm is used to aggregate over the Decision Trees to form the most
+efficient predictor.
+
+Boosting is a two-step approach, where first one uses subsets of the original data to produce a series of averagely 
+performing models and then "boosts" their performance by combining them together using a particular cost function.
+
+5. How can you avoid overfitting ?
+
+We can avoid overfitting using 
+[A] Lots of data
+[B] Cross-validation
